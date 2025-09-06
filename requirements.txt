@@ -14,6 +14,7 @@ python-multipart==0.0.6 # unchanged
 langchain==0.3.27
 langchain-openai==0.3.32
 langchain-anthropic       # this may align with 0.3.x; verify PyPI if needed
+langchain-ollama==0.3.7
 
 # Direct LLM APIs
 openai==1.106.1
