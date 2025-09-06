@@ -1,25 +1,23 @@
 # Core web framework
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
 
-# HTTP requests and utilities
-requests==2.31.0
-python-dotenv==1.0.0
-python-multipart==0.0.6
+# Data validation
+pydantic==2.11.1
 
-# LangChain core components
-langchain==0.1.0
-langchain-core==0.1.0
+# HTTP utilities
+requests==2.31.0        # still current and stable
+python-dotenv==1.0.0    # unchanged
+python-multipart==0.0.6 # unchanged
 
-# LangChain LLM integrations (the ones you're actually using)
-langchain-openai==0.0.5
-langchain-anthropic==0.1.0
-langchain-ollama==0.0.1
+# LangChain core and integrations
+langchain==0.3.27
+langchain-openai==0.3.32
+langchain-anthropic       # this may align with 0.3.x; verify PyPI if needed
 
 # Direct LLM APIs
-openai==1.6.0
-anthropic==0.8.0
+openai==1.106.1
+anthropic==0.66.0
 
-# Utilities
-tiktoken==0.5.2
+# Tokenization utility
+tiktoken==0.11.0
