@@ -1,24 +1,25 @@
+# Core web framework
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 pydantic==2.5.0
+
+# HTTP requests and utilities
 requests==2.31.0
 python-dotenv==1.0.0
+python-multipart==0.0.6
 
-# LangChain essentials
+# LangChain core components
 langchain==0.1.0
 langchain-core==0.1.0
+
+# LangChain LLM integrations (the ones you're actually using)
 langchain-openai==0.0.5
 langchain-anthropic==0.1.0
 langchain-ollama==0.0.1
 
-# LLM APIs
+# Direct LLM APIs
 openai==1.6.0
 anthropic==0.8.0
 
-# Frameworks
-crewai==0.1.0
-pyautogen==0.2.0
-
 # Utilities
-jinja2==3.1.2
 tiktoken==0.5.2
